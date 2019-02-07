@@ -1,0 +1,291 @@
+body {
+	background-color: #eee;
+	font-family: calibri;
+	margin: 0px;
+}
+
+.header {
+	font-size: 35px;
+	background-color: #000000;
+	padding: 20px;
+	color: white;
+}
+
+.menu {
+	width: 100%;
+	float: left;
+	background-color: grey;
+}
+
+.activity {
+
+	padding: 20px;
+	
+}
+
+.menu-item {
+	padding: 10px 0pc 10px 30px;
+}
+
+.menu a {
+	color: black;
+	text-decoration: none;
+}
+
+.selected {
+	background-color: silver;
+}
+
+.menu-item:hover {
+	background-color: #0080c0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#employees {
+	border-collapse: collapse;
+}
+
+#employees td, #employees th {
+	font-size: 14px;
+	border: 2px solid #ddd;
+	padding: 10px;
+}
+
+#employees th {
+	background-color: #808080;
+	color: white;
+	padding: 15px;
+	text-allign: left;
+	font-weight: 1500;
+}
+
+#employees tr:nth-child(odd) {
+	background-color: #8080ff;
+}
+
+
+#employees tr:nth-child(even) {
+	background-color: #8080c0;
+}
+
+#employees tr:hover {
+	background-color: white;
+}
+
+.textbox {
+	width: 100%;
+	heght: 30px;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	color: #495057;
+	border: 1 solid #ced4da;
+	border-radius: .5rem;
+}
+
+.label {
+	font-weight: 1000;
+	color: #888888;
+	padding-top: 20px;
+}
+
+.dropdown {
+	width: 100%;
+	heght: 30px;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	color: #495057;
+	border: 1 solid #ced4da;
+	border-radius: .5rem;
+}
+
+.bttn {
+	border: 1 solid transparent;
+	border-radius: .5rem;
+	font-size: 1rem;
+	background-color: #408080;
+	color: #fff;
+	margin-top: 25px;
+	line-height: 1.5;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+
+
+.pay-card{
+	background-color: #eee;
+	display:inline-block; 
+	font-size:12px;
+	
+}
+
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto; 
+    padding: 0.50rem;
+}
+
+
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {	
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+ 	 font-size:16px;
+ 	 
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 320px;
+    max-height: 350px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #007b5e !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #007b5e !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.pay-btn-dark{
+	
+	color:white;
+}
+.pay-nav{
+	
+	color:white;
+}
+
+
+#emplist-navbar{
+	
+	display:none;
+	
+}
+
+#emplist-body{
+	
+	display:none;
+	
+}
+
+#update-body{
+	
+	display:none;
+}

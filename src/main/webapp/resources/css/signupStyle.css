@@ -1,0 +1,184 @@
+body{
+	font-family: calibri;
+	margin:0px;
+		background-color:#21222c;
+	background-image:url("walgit.jpg");
+	 font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+    line-height: 1.5;
+      
+}
+
+
+
+.header{
+padding:20px 0px 10px 170px;
+width:100%;
+background-color:#24292e;
+color:white;
+float:left;
+}
+
+.header a{
+	
+	text-decoration: none;
+	color:white;
+	padding:4px;
+	position:relative;
+bottom:6px;
+margin-left:5px;
+margin-right:5px;
+}
+
+.searchform{
+	 border:1 solid black;
+		display: inline-block;
+	margin-left:5px;
+margin-right:5px;
+}
+
+.orr{
+	display:inline-block;
+	position:relative;
+bottom:6px;
+
+}
+
+.logo{
+	display:inline-block;
+	height:30px;
+	width:30px;
+	margin:0px;
+	padding:0px;
+	position:relative;
+	top:6px;
+}
+
+.searchbar{
+	
+ padding:.175rem .75rem;
+ line-height:1.5;
+ background-color:#495057;
+ border:1 solid black;
+ border-radius: .1rem;
+position:relative;
+bottom:6px;
+margin-left:5px;
+margin-right:0px;
+
+}
+.searchbut{
+ padding:.175rem .75rem;
+  border:1 solid black;
+background-color:#495057;
+border-radius: .2rem;
+position:relative;
+bottom:6px;
+margin-left:0px;
+margin-right:5px;
+	}
+	
+	.signupform{
+	float:right;
+	display:block;
+	background-color:white;
+	position:relative;
+	right: 200px;
+	top:80px;
+	color: #586069;
+	
+    border-radius:6px;
+    -moz-border-radius:6px;;
+	
+	}
+	
+
+#signuptable{
+	
+	 width:380px;
+	 height:476px;
+	 padding:.43rem .75rem;
+	 
+	
+}
+	* {
+    box-sizing: border-box;
+}
+
+ .textbox{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 20px;
+    color: #24292e;
+       border: 1px solid #CCCCCC;
+  
+ }
+
+ .label{
+	font-weight:600px;
+	display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: inherit;
+    text-align: left;
+
+} 
+ 
+ 
+  .search{
+ 	text-align:center;
+	border-radius: .5rem;
+	width:332px;
+	height:64px;
+	background-color: #2ebc4f;
+	 border: 1px solid #CCCCCC;
+ 	color: #fff;
+ 	line-height:1.5;
+ 	cursor: pointer;
+ 	text-decoration:none;
+ }
+ 
+ 
+ 
+ .text{
+     margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #6a737d;
+ }
+ 
+ .activity{
+
+	float:left;
+	width:40%;
+	 
+    font-weight: 500;
+}
+
+ .sometext{
+ font-size:64px;
+ color:white;
+ position:relative;
+ top:30px;
+ left:150px;
+ padding:0px;
+ 
+ }
+ 
+ .somepara{
+   
+    font-size: 20px;
+    line-height: 1.5;
+    color: silver;
+    position:relative;
+ top:30px;
+ left:150px;
+ padding:0px;
+ }
+ 
+ 
+ .somepara a{
+ color :white;
+ }
